@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <React.Fragment>
             <nav id="navigation" className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand">Danny Steiger <i className="fa fa-anchor" ></i></a>
+                <span className="navbar-brand">Danny Steiger <i className="fa fa-anchor" ></i></span>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

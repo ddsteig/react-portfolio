@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Header from "../components/Header";
 
 const Contact = () => {
@@ -10,7 +11,7 @@ const Contact = () => {
           id="space"
           src="/images/space5.jpg"
           class="img-fluid rounded mx-auto d-block"
-          alt="Space Picture5"
+          alt="Space"
         />
       </div>
 
@@ -44,7 +45,7 @@ const Contact = () => {
           </div>
 
           <button type="submit" class="btn btn-primary">
-            <a href="contact.html"></a>Submit
+            <Link to="/contact"></Link>Submit
           </button>
         </form>
       </main>
