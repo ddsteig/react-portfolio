@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import space from '../images/space5.jpg'
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
       <div>
         <img
           id="space"
-          src="/images/space5.jpg"
+          src={space}
           class="img-fluid rounded mx-auto d-block"
           alt="Space Picture5"
         />

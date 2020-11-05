@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = (props) => {
     const { name, image, alt, url, text, github } = props
-    return (
+        return (
         <React.Fragment>            
                 <div className="col-sm-12 col-md-6 col-lg-4 card-block">
                     <div className="card">
