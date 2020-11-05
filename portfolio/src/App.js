@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import {Redirect} from 'react-router'
 import About from "../src/pages/About";
 import Portfolio from "../src/pages/Portfolio";
 import Contact from "../src/pages/Contact";
@@ -14,10 +15,10 @@ function App() {
       <div>
         <Nav/>
         <Wrapper>
-          <Route exact path="/" component={About}/>
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Redirect from="/" to="about"/>
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>
