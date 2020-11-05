@@ -1,12 +1,10 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Contact = () => {
   return (
     <React.Fragment>
-      <header>
-        <h1>Contact</h1>
-      </header>
-
+      <Header />
       <div>
         <img
           id="space"

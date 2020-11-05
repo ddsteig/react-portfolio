@@ -6,7 +6,7 @@ import Contact from "../src/pages/Contact";
 import Wrapper from "../src/components/Wrapper/Wrapper";
 import Nav from '../src/components/Nav'
 import Footer from '../src/components/Footer'
-
+import './pages/style.css'
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
         <Nav/>
         <Wrapper>
           <Route path="/" component={About} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -10,10 +11,38 @@ const Nav = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
-                        <a className="nav-item nav-link" href="about">About</a>
-                        <a className="nav-item nav-link " href="portfolio">Portfolio</a> 
-                        <a className="nav-item nav-link" href="contact">Contact</a>
+    
+                    <div>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link
+                                    to="/about"
+                                    className={
+                                        window.location.pathname === "/" || window.location.pathname === "/about"
+                                            ? "nav-link active"
+                                            : "nav-link"
+                                    }
+                                >
+                                    About
+            </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link
+                                    to="/portfolio"
+                                    className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                                >
+                                    Portfolio
+            </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link
+                                    to="/contact"
+                                    className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                                >
+                                    Contact
+            </Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>

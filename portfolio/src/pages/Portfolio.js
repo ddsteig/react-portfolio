@@ -1,21 +1,20 @@
 import React from "react";
+import Header from "../components/Header";
 import Project from "../components/Project";
 import Projects from "../projects/projects.json";
 
 const Portfolio = () => {
   return (
     <React.Fragment>
-      <header>
-        <h1>Portfolio</h1>
-      </header>
+      <Header />
       <div className="container">
-      <div className="card-grid">
-        <div className="row row-cols-1 row-cols-md-2">
-          {Projects.map((project) => (
-            <Project {...project} />
-          ))}
+        <div className="card-grid">
+          <div className="row row-cols-1 row-cols-md-2">
+            {Projects.map((project) => (
+              <Project {...project} />
+            ))}
+          </div>
         </div>
-      </div>
       </div>
     </React.Fragment>
   );

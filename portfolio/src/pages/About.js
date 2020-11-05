@@ -1,12 +1,10 @@
 import React from "react";
+import Header from "../components/Header";
 
 const About = () => {
   return (
     <React.Fragment>
-      <header>
-        <h1>Bio</h1>
-      </header>
-
+      <Header />
       <main className="container">
         <article className="row">
           <section className="col-lg-6">
@@ -14,7 +12,7 @@ const About = () => {
               <h1 className="display-4">Bio</h1>
               <img
                 id="bio"
-                src="/images/bio.jpg"
+                src={require("../images/bio.jpg")}
                 className="rounded"
                 alt="Danny"
               />
@@ -31,22 +29,26 @@ const About = () => {
               </p>
               <hr />
               <h5>More About Me</h5>
-              <div className="info">Github
+              <div className="info">
+                Github
                 <a
                   className="btn-floating btn-git icon"
                   type="button"
                   role="button"
                   href="https://github.com/ddsteig"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-github"></i>
-                </a>Linkedin
+                </a>
+                Linkedin
                 <a
                   className="btn-floating btn-git icon"
                   type="button"
                   role="button"
                   href="https://www.linkedin.com/in/daniel-steiger-bb900b1a9/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-linkedin-square"></i>
                 </a>
