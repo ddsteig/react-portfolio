@@ -1,0 +1,167 @@
+/* Used on all htmls*/
+h1 {
+  width: 100%;
+  height: 60px;
+  background: gray;
+  text-align: center;
+  padding-top: 5px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  border-radius: 5px;
+  width: 75%;
+  background: #e9ecef;
+  color: #212529;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Background color for page */
+body {
+  background: #212529;
+}
+/* Background color for nav bar */
+#navigation {
+  color: #212529;
+  background-color: #e9ecef;
+}
+.nav-item {
+  color: #212529;
+}
+.active {
+  font-weight: bold;
+}
+
+/* Container placed around jumbotron on index, card-deck on portfolio, and form on contact */
+.container {
+  border-radius: 5px;
+  background: gray;
+  padding: 30px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px 6px rgb(0, 0, 0, 0.6);
+}
+/* Sticky footer */
+.footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  color: ghostwhite;
+  background-color: gray;
+  bottom: 0;
+}
+
+/* Used on index.html only */
+/* Line 50-97 is css for bio section */
+.jumbotron {
+  margin: 0;
+  font-weight: bold;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+.display-4 {
+  border-radius: 5px;
+  width: 75%;
+  height: 50px;
+  margin: auto;
+  font-size: 40px;
+  padding-top: 0;
+  margin-bottom: 10px;
+  background-color: #212529;
+  color: ghostwhite;
+}
+
+.lead {
+  font-weight: 500;
+}
+
+#bio {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.bio2 {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: ghostwhite;
+  font-family: "Blinker", sans-serif;
+}
+
+h5 {
+  border-radius: 5px;
+  width: 75%;
+  background: #212529;
+  color: ghostwhite;
+  text-align: center;
+  padding: 1%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Button & icon for more about me links */
+.btn-primary {
+  text-align: center;
+  border-color: #212529;
+  background: #212529;
+}
+
+.info {
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+#project-one {
+  font-size: 2rem;
+}
+/* Used on portfolio.html only */
+
+.projimg {
+  height: 225px;
+  width: 100%;
+}
+
+.repo {
+  font-weight: bold;
+}
+
+.card-block {
+  margin-bottom: 2rem;
+}
+
+.card {
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8);
+  height: 100%;
+}
+
+/* Used on contact.html only */
+#space {
+  margin: 5%;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Media query used: 
+    Resize contact image on smaller screens
+    Add space between sticky footer and container on smaller screens */
+@media only screen and (max-width: 950px) {
+  #space {
+    width: 90%;
+  }
+
+  .container {
+    margin-bottom: 20%;
+  }
+}
