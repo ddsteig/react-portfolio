@@ -1,4 +1,5 @@
 import React from 'react'
+import '../pages/style.css'
 
 const Project = (props) => {
     const { name, image, alt, url, text, github } = props

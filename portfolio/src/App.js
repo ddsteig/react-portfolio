@@ -15,7 +15,7 @@ function App() {
       <div>
         <Nav/>
         <Wrapper>
-          <Redirect from="/" to="about"/>
+          <Route path="/" component={About} />
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />

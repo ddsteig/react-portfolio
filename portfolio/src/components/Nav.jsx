@@ -19,7 +19,7 @@ const Nav = () => {
                                 <Link
                                     to="/about"
                                     className={
-                                        window.location.pathname === "/" || window.location.pathname === "/about"
+                                        window.location.pathname === "/" || window.location.pathname === "/react-portfolio/about"
                                             ? "nav-link active"
                                             : "nav-link"
                                     }
@@ -30,7 +30,7 @@ const Nav = () => {
                             <li className="nav-item">
                                 <Link
                                     to="/portfolio"
-                                    className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+                                    className={window.location.pathname === "/react-portfolio/portfolio" ? "nav-link active" : "nav-link"}
                                 >
                                     Portfolio
             </Link>
@@ -38,7 +38,7 @@ const Nav = () => {
                             <li className="nav-item">
                                 <Link
                                     to="/contact"
-                                    className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                                    className={window.location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"}
                                 >
                                     Contact
             </Link>
