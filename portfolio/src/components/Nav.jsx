@@ -12,20 +12,16 @@ const Nav = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-    
+
                     <div>
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <Link
-                                    to="/about"
-                                    className={
-                                        window.location.pathname === "/" || window.location.pathname === "/react-portfolio/about"
-                                            ? "nav-link active"
-                                            : "nav-link"
-                                    }
+                                    to="/"
+                                    className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                                 >
                                     About
-            </Link>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -33,7 +29,7 @@ const Nav = () => {
                                     className={window.location.pathname === "/react-portfolio/portfolio" ? "nav-link active" : "nav-link"}
                                 >
                                     Portfolio
-            </Link>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <Link
@@ -41,7 +37,7 @@ const Nav = () => {
                                     className={window.location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"}
                                 >
                                     Contact
-            </Link>
+                                </Link>
                             </li>
                         </ul>
                     </div>

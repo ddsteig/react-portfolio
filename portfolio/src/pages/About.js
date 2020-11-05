@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import danny from '../images/bio.jpg'
 
 const About = () => {
   return (
@@ -13,7 +12,7 @@ const About = () => {
               <h1 className="display-4">Bio</h1>
               <img
                 id="bio"
-                src={danny}
+                src="/images/bio.jpg"
                 className="rounded"
                 alt="Danny"
               />
