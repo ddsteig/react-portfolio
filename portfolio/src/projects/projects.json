@@ -1,7 +1,7 @@
 [
     {
         "name": "Eat A Burger!",
-        "image": "mainbg.jpg",
+        "image": "./images/mainbg.jpg",
         "alt" : "Burgers",
         "url": "https://calm-anchorage-13152.herokuapp.com/",
         "text": "An app deployed on Heroku, with html served by Handlebars, with data from MySQL. User can create a burger, and add it to a list and then devour it, which will move it to the devoured list.",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Note App",
-        "image": "note.jpg",
+        "image": "./images/note.jpg",
         "alt" : "Sticky Notes",
          "url": "https://ds-note-app.herokuapp.com/",
         "text": " A simple note taking app, where the user can save notes to time blocks, and the time blocks are colored based on current time. The user can also clear all the notes for the day easy re-use.",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Weather Dashboard",
-        "image": "weather.jpg",
+        "image": "./images/weather.jpg",
         "alt" : "Sky Weather",
          "url": "https://ddsteig.github.io/weather-dashboard/",
         "text": " A weather dashboard that allows a user to search a city for the current weather, and 5 day weather forecast. The last several cities are saved to a list that can be clicked on for quick revisiting. This list also saves to local storage.",
@@ -25,7 +25,7 @@
     },
     {
         "name": "Password Generator",
-        "image": "matrix.jpg",
+        "image": "./images/matrix.jpg",
         "alt" : "Matrix Img",
          "url": "https://ddsteig.github.io/pass-gen/",
         "text": "A simple password generator that allows users to create a random password by selecting from four character types, and password length. There is also a copy password function.",
@@ -33,7 +33,7 @@
     },
     {
         "name": "Roam Forth",
-        "image": "opening.jpg",
+        "image": "./images/opening.jpg",
         "alt" : "Desert Mountains",
          "url": "https://06jeremiah.github.io/Travel-Map-/",
         "text": "A site that allows a user to select a state, then lists the National Parks available in that state. Once a park is selected, the user can see park info, pictures taken from the park, available activites, links to the park's web page, as well as directions, and a map that display the location of the park.",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Forage",
-        "image": "forage.png",
+        "image": "./images/forage.png",
         "alt" : "Forage Logo",
          "url": "https://forage-mealplan.herokuapp.com/",
         "text": "A web application that allows users to find out their daily calorie requirements based on goals and activity and then search foods that display ingredients and calories. The user can save their favorite items to their own personal database to be displayed any time.",
