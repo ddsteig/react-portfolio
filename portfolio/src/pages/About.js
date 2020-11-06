@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import bioimg from '../images/bio.jpg'
+import bioimg from "../images/bio.jpg";
 
 const About = () => {
   return (
@@ -11,12 +11,7 @@ const About = () => {
           <section className="col-lg-6">
             <div className="jumbotron">
               <h1 className="display-4">Bio</h1>
-              <img
-                id="bio"
-                src={bioimg}
-                className="rounded"
-                alt="Danny"
-              />
+              <img id="bio" src={bioimg} className="rounded" alt="Danny" />
               <hr />
               <p className="lead">
                 After 17 consecutive years in retail, I have decided to pursue a
@@ -53,6 +48,7 @@ const About = () => {
                 >
                   <i className="fa fa-linkedin-square"></i>
                 </a>
+                <a href="https://docs.google.com/document/d/1p8dcq0HJgsSp0K9s_b5cU-OipzArBPi6mhmk4KEyaFI/edit?usp=sharing">My Resume</a>
               </div>
             </div>
           </section>
