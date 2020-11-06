@@ -48,7 +48,13 @@ const About = () => {
                 >
                   <i className="fa fa-linkedin-square"></i>
                 </a>
-                <a href="https://docs.google.com/document/d/1p8dcq0HJgsSp0K9s_b5cU-OipzArBPi6mhmk4KEyaFI/edit?usp=sharing">My Resume</a>
+                <a
+                  href="https://docs.google.com/document/d/1p8dcq0HJgsSp0K9s_b5cU-OipzArBPi6mhmk4KEyaFI/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  My Resume
+                </a>
               </div>
             </div>
           </section>
