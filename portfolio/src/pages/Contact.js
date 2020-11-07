@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import Header from "../components/Header";
-import spaceimg from '../images/space5.jpg'
 
 const Contact = () => {
   return (
@@ -10,7 +9,7 @@ const Contact = () => {
       <div>
         <img
           id="space"
-          src={spaceimg}
+          src="./images/space5.jpg"
           class="img-fluid rounded mx-auto d-block"
           alt="Space"
         />

@@ -13,6 +13,7 @@ function App() {
       <div>
         <Nav />
         <Switch>
+          <Route exact path="/react-portfolio/about" component={About} />
           <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
           <Route exact path="/react-portfolio/contact" component={Contact} />
           <Route path="/" component={About} />
@@ -24,3 +25,4 @@ function App() {
 }
 
 export default App;
+ 

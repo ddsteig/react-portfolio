@@ -4,12 +4,14 @@ import { withRouter } from 'react-router-dom';
 const Header = (props) => {
     
     let pathname = props.location.pathname.slice(1)
-    if (pathname === 'react-portfolio/') {
+    if (pathname === 'react-portfolio/about') {
         pathname = 'About'
     } else if (pathname === 'react-portfolio/portfolio') {
         pathname = 'Portfolio'
     } else if (pathname === 'react-portfolio/contact') {
         pathname = 'Contact'
+    } else {
+        pathname = 'About'
     };
 
     return (

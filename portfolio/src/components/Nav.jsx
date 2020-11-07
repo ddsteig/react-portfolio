@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const Nav = () => {
@@ -16,28 +16,28 @@ const Nav = () => {
                     <div>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link
-                                    to="/react-portfolio/"
-                                    className={window.location.pathname === "/react-portfolio/" ? "nav-link active" : "nav-link"}
+                                <NavLink
+                                    to="/react-portfolio/about"
+                                    className={window.location.pathname === "/react-portfolio/about" ? "nav-link active" : "nav-link"}
                                 >
-                                    About
-                                </Link>
+                                    About                                    
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link
+                                <NavLink
                                     to="/react-portfolio/portfolio"
                                     className={window.location.pathname === "/react-portfolio/portfolio" ? "nav-link active" : "nav-link"}
                                 >
-                                    Portfolio
-                                </Link>
+                                    Portfolio                                    
+                                </NavLink>
                             </li>
                             <li className="nav-item">
-                                <Link
+                                <NavLink
                                     to="/react-portfolio/contact"
                                     className={window.location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"}
                                 >
-                                    Contact
-                                </Link>
+                                    Contact                                    
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
