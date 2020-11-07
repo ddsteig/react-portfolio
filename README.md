@@ -15,6 +15,11 @@
 
 A simple portfolio updated with react.
 
+### Known Issues:
+
+* When clicking another page current page and new page show as active links until refreshed.
+  * Worked before adding refresh page fix to index.html in public.
+
 ## Resources <a name="resources"></a>	
 
 [React Refresh For GH-Pages](https://github.com/rafgraph/spa-github-pages)
