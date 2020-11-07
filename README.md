@@ -17,7 +17,7 @@ A simple portfolio updated with react.
 
 ### Known Issues:
 
-* When clicking another page current page and new page show as active links until refreshed.
+* When clicking another page, last page and currest page show as active links until refreshed.
   * Worked before adding refresh page fix to index.html in public.
 
 ## Resources <a name="resources"></a>	
