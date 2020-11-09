@@ -10,42 +10,46 @@ const Contact = () => {
         <img
           id="space"
           src="./images/space5.jpg"
-          class="img-fluid rounded mx-auto d-block"
+          className="img-fluid rounded mx-auto d-block"
           alt="Space"
         />
       </div>
 
-      <main class="container">
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
+      <main className="container">
+        <form action="mailto:dannydsteiger@gmail.com" method="post" enctype="text/plain">
+          <div className="form-group">
+            <label for="name">Name</label>
             <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name"
+              name="Name"
+              type="text"
+              className="form-control"
+              id="name"
+              placeholder="Name"
             />
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email Address</label>
+          <div className="form-group">
+            <label for="email">Email Address</label>
             <input
-              type="name"
-              class="form-control"
-              id="exampleFormControlInput1"
+              name="Email"
+              type="text"
+              className="form-control"
+              id="email"
               placeholder="name@example.com"
             />
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Comments</label>
+          <div className="form-group">
+            <label for="comment">Comments</label>
             <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
+              name="Comments"
+              type="text"
+              className="form-control"
+              id="comment"
               rows="3"
             ></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary">
-            <Link to="/contact"></Link>Submit
+          <button type="submit" className="btn btn-primary">
+            Submit
           </button>
         </form>
       </main>
