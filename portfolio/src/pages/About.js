@@ -7,14 +7,19 @@ const About = () => {
       <Header />
       <main className="container">
         <article className="row">
-          <section className="col-lg-6">
+          <section className="col-lg-6" id="mainbio">
             <div className="jumbotron">
-              <h1 className="display-4">Bio</h1>
-              <img id="bio" src="./images/bio.jpg" className="rounded" alt="Danny" />
+              <h1 className="display-4">Danny Steiger</h1>
+              <img
+                id="bio"
+                src="./images/bio.jpg"
+                className="rounded"
+                alt="Danny"
+              />
               <hr />
               <p className="lead">
-                After 17 consecutive years in retail, I have decided to pursue a
-                career that interests me. Full-Stack Developer{" "}
+                After several years in retail, I have decided to pursue a career
+                that interests me. Full-Stack Developer{" "}
               </p>
               <hr className="my-4" />
               <p>
@@ -60,12 +65,25 @@ const About = () => {
           {/* <!-- Rows & columns to create and side view text that drops down on mobile view --> */}
           <section className="col-lg-6 col-sm-12">
             <div className="row bio2">
-              <h2>Work</h2>
+              <div className="row bio2">
+                <h2>Full-Stack</h2>
+                <p>
+                  <br />
+                  Skills:
+                  <ul>
+                    <li>HTML5 / CSS3</li>
+                    <li>Javascript</li>
+                    <li>Node / Express</li>
+                    <li>MySQL / Mongo</li>
+                    <li>React</li>
+                  </ul>
+                </p>
+              </div>
+              <h2>Work History</h2>
               <p>
-                In my 17 years of retail experience, 15 years of it has been in
-                management and supervisor positions.
-                <br></br>
-                Some of my positions included:
+                Retail / Business Management
+                <br />
+                Posistions Held:
                 <ul>
                   <li>Department Manager</li>
                   <li>Instock Supervisor</li>
@@ -80,7 +98,7 @@ const About = () => {
               <p>
                 I used to create web pages when I was younger and always enjoyed
                 designing and being creative.
-                <br></br>
+                <br />
                 Some of my other hobbies include:
                 <ul>
                   <li>Writing</li>
