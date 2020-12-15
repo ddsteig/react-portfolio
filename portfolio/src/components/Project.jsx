@@ -3,7 +3,7 @@ import '../pages/style.css'
 
 
 const Project = (props) => {
-    const { name, image, alt, url, text, github } = props
+    const { name, image, alt, url, text, tech, github } = props
 
     return (
         <React.Fragment>
@@ -13,7 +13,10 @@ const Project = (props) => {
                         <img src={image} className="card-img-top projimg" alt={alt} /></a>
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>
-                        <p className="card-text">{text}</p>
+                        <br />
+                        <p className="card-text">About: {text}</p>
+                        <br />
+                        <p className="card-text">Tech: {tech}</p>
                     </div>
                     <div className="card-footer">
                         <small className="repo">

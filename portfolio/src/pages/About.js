@@ -59,6 +59,10 @@ const About = () => {
                 >
                   My Resume
                 </a>
+                <br/>
+              </div>
+              <div className="info">
+                <p>Email: dannydsteiger@gmail.com</p>
               </div>
             </div>
           </section>
@@ -90,23 +94,6 @@ const About = () => {
                   <li>Customer Service Manager</li>
                   <li>Zone Manager Supervisor</li>
                   <li>Assistant Manager</li>
-                </ul>
-              </p>
-            </div>
-            <div className="row bio2">
-              <h2>Hobbies</h2>
-              <p>
-                I used to create web pages when I was younger and always enjoyed
-                designing and being creative.
-                <br />
-                Some of my other hobbies include:
-                <ul>
-                  <li>Writing</li>
-                  <li>Graphic Novels - Primarily Xmen Series</li>
-                  <li>Sci-fi Series & Movies</li>
-                  <li>Anime</li>
-                  <li>Art</li>
-                  <li>Gaming - Mostly RPGs</li>
                 </ul>
               </p>
             </div>
