@@ -58,11 +58,11 @@ const About = () => {
                   rel="noreferrer"
                 >
                   My Resume
-                </a>
-                <br/>
+                </a>                
               </div>
+              <br/>
               <div className="info">
-                <p>Email: dannydsteiger@gmail.com</p>
+                <p>Email: tekhexrax@yahoo.com</p>
               </div>
             </div>
           </section>
