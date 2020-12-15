@@ -150,6 +150,8 @@ h5 {
 /* Used on contact.html only */
 #space {
   margin: 5%;
+  height: 500px;
+  width: 700px;
   box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8);
 }
 

@@ -53,7 +53,7 @@ const About = () => {
                   <i className="fa fa-linkedin-square"></i>
                 </a>
                 <a
-                  href="https://docs.google.com/document/d/1p8dcq0HJgsSp0K9s_b5cU-OipzArBPi6mhmk4KEyaFI/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1k7k_16nz7zxV3yP4v4LUnPwzsUi04_3NEll4DTOAXdM/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
