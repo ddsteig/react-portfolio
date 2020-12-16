@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 const Contact = () => {
@@ -16,7 +16,11 @@ const Contact = () => {
       </div>
 
       <main className="container">
-        <form action="mailto:tekhexrax@yahoo.com" method="post" enctype="text/plain">
+        <form
+          action="mailto:dannydsteiger@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
           <div className="form-group">
             <label for="name">Name</label>
             <input

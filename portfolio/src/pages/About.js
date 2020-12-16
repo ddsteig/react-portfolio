@@ -62,7 +62,7 @@ const About = () => {
               </div>
               <br/>
               <div className="info">
-                <p>Email: tekhexrax@yahoo.com</p>
+                <p>Email: dannydsteiger@gmail.com</p>
               </div>
             </div>
           </section>
