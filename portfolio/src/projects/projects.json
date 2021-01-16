@@ -8,6 +8,14 @@
         "tech":"HTML, CSS, Javascript, Heroku, Node, Handlebars, MySQL, JawsDB",
         "github": "https://github.com/ddsteig/burger"
     },
+    {   "name": "Budget Tracker",
+        "image": "./images/budget.jpg",
+        "alt" : "Budget",
+        "url": "https://ancient-garden-77422.herokuapp.com/",
+        "text": "An app deployed on Heroku, yhat allows the user to add expenses and deposits to their budget with or without a connection.",
+        "tech":"HTML, CSS, Javascript, Mongoose, MongoDB Atlas, Heroku, Robo 3T, Node, IndexedDB, Cache",
+        "github": "https://github.com/ddsteig/budget-tracker"        
+    },
     {
         "name": "Note App",
         "image": "./images/note.jpg",
@@ -52,5 +60,5 @@
         "text": "A web application that allows users to find out their daily calorie requirements based on goals and activity and then search foods that display ingredients and calories. The user can save their favorite items to their own personal database to be displayed any time.",
         "tech":"HTML, CSS, Javascript, Node, Express, MySQL, Axios, Ajax, Edamam API",
         "github": "https://github.com/Kooki-eByte/Forage"
-    }
+    }    
 ]
