@@ -1,19 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
+import Background from "./space5.jpg"
 
 const Contact = () => {
   return (
     <React.Fragment>
       <Header />
-      <div>
-        <img
+      <div style={{
+        backgroundImage: `url(${Background}`,
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        padding: '5%'
+    }}>
+        {/* <img
           id="space"
           src="./images/space5.jpg"
           className="img-fluid rounded mx-auto d-block"
           alt="Space"
-        />
-      </div>
+        /> */}
+      
 
       <main className="container">
         <form
@@ -57,6 +64,7 @@ const Contact = () => {
           </button>
         </form>
       </main>
+      </div>
     </React.Fragment>
   );
 };
