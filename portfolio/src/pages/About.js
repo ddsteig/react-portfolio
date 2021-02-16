@@ -19,7 +19,7 @@ const About = () => {
               <hr />
               <p className="lead">
                 After several years working in the retail industry, I decided to
-                pursue a career in coding/development which has always
+                pursue a career in coding & development which has always
                 interested me. I am now a Full-Stack Web Developer!
               </p>
               <p className="lead">
@@ -34,17 +34,22 @@ const About = () => {
                 from the University of Central Florida. While working on my
                 certificate, I worked with others on several projects advancing
                 my knowledge on HTML, CSS, Javascript, Node.js, Express, React,
-                MongoDB & MySQL. Several years of retail experience has built
-                upon my work skills: communication, planning, execution, time
-                management, and adaptability. My passion however, remains with
-                technology and being in an environment of continuous learning. I
-                enjoy problem solving, always striving to look for solutions
-                rather than getting stuck on the problem. Experienced with
-                leading, and working on teams, and striving to complete tasks
-                before given timelines. Excited to bring my experience and
-                positive attitude to add value to an organization, and to
-                continue learning and sharing with others in the field of web
-                development.
+                MongoDB & MySQL.
+              </p>
+              <p>
+                Several years of retail experience has built upon my work
+                skills: communication, planning, execution, time management, and
+                adaptability. My passion however, remains with technology and
+                being in an environment of continuous learning. I enjoy problem
+                solving, always striving to look for solutions rather than
+                getting stuck on the problem. Experienced with leading, and
+                working on teams, and striving to complete tasks before given
+                timelines
+              </p>
+              <p>
+                Excited to bring my experience and positive attitude to add
+                value to an organization, and to continue learning and sharing
+                with others in the field of web development.
               </p>
               <hr />
               <h5>More About Me</h5>
@@ -72,7 +77,7 @@ const About = () => {
                   <i className="fa fa-linkedin-square"></i>
                 </a>
                 <a
-                  href="https://docs.google.com/document/d/1p8dcq0HJgsSp0K9s_b5cU-OipzArBPi6mhmk4KEyaFI/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1k7k_16nz7zxV3yP4v4LUnPwzsUi04_3NEll4DTOAXdM/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >

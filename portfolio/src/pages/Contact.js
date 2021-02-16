@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Background from "./space5.jpg"
 
@@ -14,13 +13,6 @@ const Contact = () => {
         backgroundSize: 'cover',
         padding: '5%'
     }}>
-        {/* <img
-          id="space"
-          src="./images/space5.jpg"
-          className="img-fluid rounded mx-auto d-block"
-          alt="Space"
-        /> */}
-      
 
       <main className="container">
         <form
