@@ -8,6 +8,10 @@ h1 {
   box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
 }
 
+#name {
+  border-radius: 5px;
+}
+
 h2 {
   border-radius: 5px;
   width: 75%;
