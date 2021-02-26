@@ -5,7 +5,7 @@ import Portfolio from "../src/pages/Portfolio";
 import Contact from "../src/pages/Contact";
 import Nav from "../src/components/Nav";
 import Footer from "../src/components/Footer";
-import "./pages/style.css";
+// import "./pages/style.css";
 
 function App() {
   return (

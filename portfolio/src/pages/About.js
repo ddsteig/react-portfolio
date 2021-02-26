@@ -9,7 +9,7 @@ const About = () => {
         <article className="row">
           <section className="col-lg-6" id="mainbio">
             <div className="jumbotron">
-              <h1 className="display-4">Danny Steiger</h1>
+              <h1 className="bg-dark text-white name">Danny Steiger</h1>
               <img
                 id="bio"
                 src="./images/bio.jpg"
@@ -52,7 +52,7 @@ const About = () => {
                 with others in the field of web development.
               </p>
               <hr />
-              <h5>More About Me</h5>
+              <h5 className="bg-dark text-white">More About Me</h5>
               <div className="info">
                 Github
                 <a
@@ -104,6 +104,7 @@ const About = () => {
                     <li>Node / Express</li>
                     <li>MySQL / Mongo</li>
                     <li>React</li>
+                    <li>WordPress</li>
                   </ul>
                 </p>
               </div>
