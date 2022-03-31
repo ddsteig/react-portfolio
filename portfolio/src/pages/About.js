@@ -115,8 +115,7 @@ const About = () => {
                 <ul>
                   <li>QA</li>
                 </ul>
-              </p>
-              <p>
+              <br/>
                 Retail / Business Management
                 <br />
                 Posistions Held:
