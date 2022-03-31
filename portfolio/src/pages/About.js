@@ -110,6 +110,13 @@ const About = () => {
               </div>
               <h2>Work History</h2>
               <p>
+                Digital Engineer
+                <br/>
+                <ul>
+                  <li>QA</li>
+                </ul>
+              </p>
+              <p>
                 Retail / Business Management
                 <br />
                 Posistions Held:
